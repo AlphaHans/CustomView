@@ -9,8 +9,24 @@
 
     <xyz.hans.customview.view.RippleButton
         android:id="@+id/main_btn_ripple"
-        android:background="@android:color/darker_gray"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/darker_gray"
+        android:text="你好哇"
+        android:textColor="@android:color/white" />
+
+    <xyz.hans.customview.view.RippleLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-    </xyz.hans.customview.view.RippleButton>
+
+        <TextView
+            android:id="@+id/main_tv_ripple_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/darker_gray"
+            android:gravity="center"
+            android:text="扣你几瓦"
+            android:textColor="@android:color/white" />
+    </xyz.hans.customview.view.RippleLayout>
 </LinearLayout>
