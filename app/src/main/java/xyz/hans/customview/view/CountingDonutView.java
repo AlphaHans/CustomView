@@ -76,6 +76,6 @@ public class CountingDonutView extends View {
             mRectF = new RectF(10, 10, right - left - 10, right - left - 10);
         }
         //从相对于三点钟方向的-45°开始转(就是一点半开始)
-        canvas.drawArc(mRectF, -45, mCurrentRadius, false, mPaint);
+        canvas.drawArc(mRectF, 0, mCurrentRadius, false, mPaint);
     }
 }
